@@ -1,0 +1,63 @@
+{
+  "Main": {
+    "collection_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "Collection Title",
+        "placeholder": "Collection Title"
+      }
+    },
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "Unique ID",
+        "placeholder": "To generate URL"
+      }
+    },
+    "main_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Main Image"
+      }
+    },
+    "date": {
+      "type": "Date",
+      "config": {
+        "label": "Date",
+        "placeholder": "Date"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "gallery": []
+        },
+        "choices": {
+          "gallery": {
+            "type": "Slice",
+            "fieldset": "Gallery",
+            "description": "Collection of Images",
+            "icon": "burst_mode",
+            "display": "grid",
+            "non-repeat": {},
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Image"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

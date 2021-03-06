@@ -1,0 +1,20 @@
+{
+  "Main": {
+    "hero_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1",
+        "label": "Hero Title",
+        "placeholder": "Hero Title"
+      }
+    },
+    "hero_subtitle": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Hero Subtitle",
+        "placeholder": "Hero Subtitle"
+      }
+    }
+  }
+}

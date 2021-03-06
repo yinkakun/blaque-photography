@@ -1,0 +1,36 @@
+{
+  "Main": {
+    "heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2",
+        "label": "Heading",
+        "placeholder": "Heading"
+      }
+    },
+    "email": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Email",
+        "placeholder": "Email address"
+      }
+    },
+    "phone_number": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Phone Number",
+        "placeholder": "Phone Number"
+      }
+    },
+    "instagram_username": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Instagram username without @",
+        "placeholder": "Instagram username without @"
+      }
+    }
+  }
+}
