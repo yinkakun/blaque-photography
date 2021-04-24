@@ -1,6 +1,6 @@
 # Blaque Photography
 
-A Photographer Portfolio JAMStack website.[View Live Demo](https://blaquephotography.netlify.app)
+A Photographer Portfolio JAMStack website. [View Live Demo](https://blaquephotography.vercel.app)
 
 ## Built with
 
