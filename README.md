@@ -1,6 +1,6 @@
-# Blaqie Photography
+# Blaque Photography
 
-A Photographer Portfolio JAMStack website.[View Live Demo](https://blaqiephotography.netlify.app)
+A Photographer Portfolio JAMStack website.[View Live Demo](https://blaquephotography.netlify.app)
 
 ## Built with
 
@@ -14,13 +14,13 @@ A Photographer Portfolio JAMStack website.[View Live Demo](https://blaqiephotogr
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yinkakun/blaqie-photography
+git clone https://github.com/yinkakun/blaque-photography
 ```
 
 2. Navigate into repository
 
 ```bash
-cd blaqie-photography
+cd blaque-photography
 ```
 
 3. Install the dependencies
