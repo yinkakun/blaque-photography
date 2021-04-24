@@ -5,7 +5,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Blaqie Photography`,
+    title: `Blaque Photography`,
     description: 'Capturing Experience, Not Just Another Photograph.',
   },
 
@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Blaqie Photography`,
+        name: `Blaque Photography`,
         short_name: `Blaqie`,
         start_url: `/`,
         background_color: `#e7d4c1`,

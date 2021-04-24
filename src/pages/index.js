@@ -43,7 +43,6 @@ export default HomePage;
 const HeroSection = () => {
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: '-100px 0px',
   });
 
   const controls = useAnimation();
@@ -93,7 +92,6 @@ const HeroSection = () => {
 const CTASection = () => {
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: '-100px 0px',
   });
 
   const controls = useAnimation();
@@ -116,7 +114,7 @@ const CTASection = () => {
           Let's take some amazing photos together
         </CTAHeading>
 
-        <CTALinkWrapper variants={slideUpMotion} whileTap={{ scale: 0.9 }}>
+        <CTALinkWrapper variants={slideUpMotion}>
           <Link to="/contact">Get In Touch</Link>
         </CTALinkWrapper>
       </motion.div>

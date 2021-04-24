@@ -37,7 +37,6 @@ const listItemMotion = {
 const SelectedWorksListItem = ({ id, title, year, image }) => {
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: '-100px 0px',
   });
 
   const controls = useAnimation();

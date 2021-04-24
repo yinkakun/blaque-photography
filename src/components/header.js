@@ -8,7 +8,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <HeaderTitle>
-          <Link to="/">Blaqie</Link>
+          <Link to="/">Blaque</Link>
         </HeaderTitle>
 
         <HeaderNavList>

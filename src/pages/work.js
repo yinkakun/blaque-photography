@@ -29,7 +29,10 @@ const slideUpContainerMotion = {
 
 const SelectedWorksItem = ({ id, title, year, image }) => {
   return (
-    <WorksGalleryItemWrapper variants={slideUpMotion} whileTap={{ scale: 0.9 }}>
+    <WorksGalleryItemWrapper
+      variants={slideUpMotion}
+      whileTap={{ scale: 0.96 }}
+    >
       <Link to={`/work/${id}`}>
         <WorksGalleryImage fluid={image.fluid} />
         <Title>{title}</Title>
@@ -42,7 +45,6 @@ const SelectedWorksItem = ({ id, title, year, image }) => {
 const Works = () => {
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: '-100px 0px',
   });
 
   const controls = useAnimation();

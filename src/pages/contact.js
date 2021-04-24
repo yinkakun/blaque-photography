@@ -27,7 +27,6 @@ const slideUpContainerMotion = {
 const Contact = () => {
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: '-100px 0px',
   });
 
   const controls = useAnimation();
@@ -109,6 +108,7 @@ const ContactWrapper = styled(motion.section)`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
   padding-top: 3rem;
   padding-bottom: 3rem;
 `;

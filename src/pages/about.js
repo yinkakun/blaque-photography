@@ -28,7 +28,6 @@ const slideUpContainerMotion = {
 const About = () => {
   const [ref, inView] = useInView({
     triggerOnce: false,
-    rootMargin: '-100px 0px',
   });
 
   const controls = useAnimation();
@@ -94,6 +93,8 @@ const AboutSectionWrapper = styled(motion.section)`
   padding-top: 3rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100%;
 
   & p {
     font-family: 'IBM Plex Sans';
